@@ -1,0 +1,5 @@
+[core]
+	excludesfile = ~/.gitignore
+[user]
+    name = Igor Petrov
+    email = igor@ipetrov.me
