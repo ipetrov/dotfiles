@@ -81,5 +81,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export WORKON_HOME=~/dev/venvs
-source /usr/local/bin/virtualenvwrapper.sh
+# Load extra (private) settings
+[ -f ~/.zshlocal ] && source ~/.zshlocal
